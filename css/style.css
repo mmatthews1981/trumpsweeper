@@ -1,0 +1,87 @@
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+#container {
+  display: inline-block;
+  background: blue;
+  margin: 0px auto;
+  padding: 25px;
+  border-radius: 25px;
+  
+}
+
+#header {
+  display: block;
+}
+
+#wrapper {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+#start {
+  width: 80px;
+  padding: 15px;
+  background-color:red;
+  color:#fff;
+  text-align: center;
+  margin: 0px auto;
+  border-radius: 10px;
+}
+
+#start:active{
+  background-color:green;
+}
+
+p {
+  text-align: center;
+  color: #fff;
+  margin: 8px 8px 16px 8px;
+}
+
+.row {
+  height: 30px;
+  width: 360px;
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+  outline: 1px solid;
+  display: inline-block;
+  float: left;
+  background: #FFFFFF;
+}
+
+.square:active {
+  background-color: #333;
+  color: #fff;
+}
+
+.grey {
+  background-color: #888;
+}
+
+.invis {
+  font-size: 0;
+}
+
+.trump {
+  background: url("https://dl.dropboxusercontent.com/u/31750021/trump.jpg");
+}
+
+#footer {
+  max-width: 275px;
+  
+  text-align: center;
+  margin: 0px auto;
+  color: #fff;
+  margin-top: 15px;
+}
+
+#footer a {
+  color: #fff;
+}
